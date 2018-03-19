@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func accionBoton(_ sender: Any) {
+        etiquetaNombre.text="Se hizo clic"
+    }
+    @IBOutlet weak var etiquetaNombre: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
